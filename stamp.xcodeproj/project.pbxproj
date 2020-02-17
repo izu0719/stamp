@@ -15,6 +15,11 @@
 		FDE1876423F670C60039176E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE1876223F670C60039176E /* LaunchScreen.storyboard */; };
 		FDE1876F23F670C70039176E /* stampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1876E23F670C70039176E /* stampTests.swift */; };
 		FDE1877A23F670C70039176E /* stampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE1877923F670C70039176E /* stampUITests.swift */; };
+		FDE1878D23F673850039176E /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE1878823F673850039176E /* hana.png */; };
+		FDE1878E23F673850039176E /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE1878923F673850039176E /* onpu.png */; };
+		FDE1878F23F673850039176E /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE1878A23F673850039176E /* hoshi.png */; };
+		FDE1879023F673850039176E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE1878B23F673850039176E /* background.png */; };
+		FDE1879123F673850039176E /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDE1878C23F673850039176E /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FDE1877523F670C70039176E /* stampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE1877923F670C70039176E /* stampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stampUITests.swift; sourceTree = "<group>"; };
 		FDE1877B23F670C70039176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE1878823F673850039176E /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		FDE1878923F673850039176E /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		FDE1878A23F673850039176E /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		FDE1878B23F673850039176E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FDE1878C23F673850039176E /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 				FDE1875923F670C50039176E /* SceneDelegate.swift */,
 				FDE1875B23F670C50039176E /* ViewController.swift */,
 				FDE1875D23F670C50039176E /* Main.storyboard */,
+				FDE1878723F673850039176E /* Stamp素材 */,
 				FDE1876023F670C60039176E /* Assets.xcassets */,
 				FDE1876223F670C60039176E /* LaunchScreen.storyboard */,
 				FDE1876523F670C60039176E /* Info.plist */,
@@ -127,6 +138,18 @@
 			);
 			path = stampUITests;
 			sourceTree = "<group>";
+		};
+		FDE1878723F673850039176E /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				FDE1878823F673850039176E /* hana.png */,
+				FDE1878923F673850039176E /* onpu.png */,
+				FDE1878A23F673850039176E /* hoshi.png */,
+				FDE1878B23F673850039176E /* background.png */,
+				FDE1878C23F673850039176E /* shitumon.png */,
+			);
+			path = "Stamp素材";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -233,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE1876423F670C60039176E /* LaunchScreen.storyboard in Resources */,
+				FDE1878F23F673850039176E /* hoshi.png in Resources */,
+				FDE1879023F673850039176E /* background.png in Resources */,
+				FDE1878E23F673850039176E /* onpu.png in Resources */,
 				FDE1876123F670C60039176E /* Assets.xcassets in Resources */,
 				FDE1875F23F670C50039176E /* Main.storyboard in Resources */,
+				FDE1879123F673850039176E /* shitumon.png in Resources */,
+				FDE1878D23F673850039176E /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
